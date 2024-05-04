@@ -1,0 +1,17 @@
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FEMENESS_.exe
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FEMENESS_.deps.json
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FEMENESS_.runtimeconfig.json
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FEMENESS_.dll
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FEMENESS_.pdb
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.App.resources
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Authentication.AuthPanel.resources
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.csproj.GenerateResource.cache
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.AssemblyInfoInputs.cache
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.AssemblyInfo.cs
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.csproj.CoreCompileInputs.cache
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.dll
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\refint\FEMENESS_.dll
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.pdb
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.genruntimeconfig.cache
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\ref\FEMENESS_.dll
