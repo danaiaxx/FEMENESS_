@@ -1,11 +1,11 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace FEMENESS_.UI
+namespace FEMENESS_.UI.Customization
 {
-    public static class CustomStyles
+    public  class CustomStyles
     {
-        public static void ApplyButtonStyle(Button button, Color backColor, Color foreColor)
+        public  void ApplyButtonStyle(Button button, Color backColor, Color foreColor)
         {
             button.FlatStyle = FlatStyle.Flat;
             button.FlatAppearance.BorderSize = 0;

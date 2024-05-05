@@ -20,31 +20,68 @@ namespace FEMENESS_.UI.Authentication
             LoginButton.MouseLeave += Button_MouseLeave;
             RegisterButton.MouseEnter += Button_MouseEnter;
             RegisterButton.MouseLeave += Button_MouseLeave;
+
         }
 
-        // Event handler for mouse enter event
         private void Button_MouseEnter(object sender, EventArgs e)
         {
-            // Change button background color or any other style when mouse enters
-            ((Button)sender).BackColor = Color.Gray; // For example, change to gray
+            // Change button appearance when mouse enters
+            Button button = (Button)sender;
+
+            // Set different hover colors based on the button
+            if (button == LoginButton)
+            {
+                button.BackColor = Color.FromArgb(196, 153, 131);
+                button.ForeColor = Color.FromArgb(245, 245, 245);
+            }
+            else if (button == RegisterButton)
+            {
+                button.BackColor = Color.FromArgb(245, 245, 245);
+                button.ForeColor = Color.FromArgb(196, 153, 131);
+            }
+            // Add more conditions for other buttons if needed
         }
 
-        // Event handler for mouse leave event
+
         private void Button_MouseLeave(object sender, EventArgs e)
         {
-            // Restore button background color or any other style when mouse leaves
-            ((Button)sender).BackColor = SystemColors.Control; // Restore default color
+            // Restore button appearance when mouse leaves
+            Button button = (Button)sender;
+
+            // Restore different button appearance based on the button
+            if (button == LoginButton)
+            {
+                button.BackColor = Color.FromArgb(245, 245, 245);
+                button.ForeColor = Color.FromArgb(196, 153, 131);
+            }
+            else if (button == RegisterButton)
+            {
+                button.BackColor = Color.FromArgb(196, 153, 131);
+                button.ForeColor = Color.FromArgb(245, 245, 245);
+            }
+            // Add more conditions for other buttons if needed
         }
+
 
         // Your existing event handlers for button clicks
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            // Your login button click logic
+            // Hide the current panel (AuthPanel)
+            this.Visible = false;
+
+            // Show the login panel
+            LoginPanel loginPanel = new UI.Authentication.LoginPanel();
+            loginPanel.Dock = DockStyle.Fill; // Fill the container with the login panel
+            Parent.Controls.Add(loginPanel); // Add the login panel to the same container
+
+            Parent.Controls.Remove(this);
         }
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
             // Your register button click logic
+            this.Visible = false;
+
         }
     }
 }

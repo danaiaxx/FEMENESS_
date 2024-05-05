@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="AuthButtonPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="login_panel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABLAAAAFKCAYAAAANEKYXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAC09JREFUeF7t3cFtG+kZgGGV4A6yJbgEdZB0kO1g3UHSgbYDl+ASVAJhkkmOv5TD
@@ -175,7 +175,7 @@
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAaoAAABCCAYAAAAG75KtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAP7BJREFUeF7tnXd8FcfV90PvCDDYxmBTHRtcMN3GFNGbAQMC0ZEoQhKgAkioCyEk
+        DAAACwwBP0AiyAAAP7BJREFUeF7tnXd8FcfV90PvCDDYxmBTHRtcMN3GFNGbAQMC0ZEoQhKgAkioCyEk
         GWM6CJAAgTHuHQOpdqr9JG5x8uSxnbyOO/h5k9h585T8mfd8RzPrvVcraaXdK4l87vl8fp+9V7o7szNz
         5rQ5M/udEFAzBzTXMJ+D/x+mMIUpTGEKk/909YWKvlcvno+58spj+69cfOxFwSdXK/FPwPcvLzz6s89e
         PnvhT8+fSnu74uCMFx/JHyy3the0FbQWtBQY5RWmMIUpTGEKk3dCOV299NhrRiHVFV+8/Ohn75w9nCtF

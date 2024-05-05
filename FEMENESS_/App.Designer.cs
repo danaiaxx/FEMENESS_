@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            authPanel1 = new UI.Authentication.AuthPanel();
             SuspendLayout();
+            // 
+            // authPanel1
+            // 
+            authPanel1.BackColor = Color.FromArgb(250, 243, 233);
+            authPanel1.Dock = DockStyle.Fill;
+            authPanel1.Location = new Point(0, 0);
+            authPanel1.Name = "authPanel1";
+            authPanel1.Size = new Size(984, 561);
+            authPanel1.TabIndex = 0;
             // 
             // App
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 561);
+            Controls.Add(authPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "App";
@@ -44,5 +55,7 @@
         }
 
         #endregion
+
+        private UI.Authentication.AuthPanel authPanel1;
     }
 }

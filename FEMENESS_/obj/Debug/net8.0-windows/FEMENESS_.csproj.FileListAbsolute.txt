@@ -15,3 +15,9 @@ C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\refint\
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.pdb
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.genruntimeconfig.cache
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\ref\FEMENESS_.dll
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.csproj.AssemblyReference.cache
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.Properties.Resources.resources
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.sourcelink.json
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.csproj.Up2Date
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Authentication.LoginPanel.resources

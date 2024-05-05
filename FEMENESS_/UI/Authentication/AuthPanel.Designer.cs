@@ -31,17 +31,26 @@ namespace FEMENESS_.UI.Authentication
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthPanel));
             AuthButtonPanel = new Panel();
             buttonWrapper = new Panel();
             RegisterButton = new Button();
             LoginButton = new Button();
+            panel1 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
             AuthButtonPanel.SuspendLayout();
             buttonWrapper.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // AuthButtonPanel
             // 
-            AuthButtonPanel.BackColor = Color.FromArgb(241, 223, 211);
+            AuthButtonPanel.BackColor = Color.Transparent;
+            AuthButtonPanel.BackgroundImage = (Image)resources.GetObject("AuthButtonPanel.BackgroundImage");
+            AuthButtonPanel.BackgroundImageLayout = ImageLayout.Stretch;
             AuthButtonPanel.Controls.Add(buttonWrapper);
             AuthButtonPanel.Dock = DockStyle.Bottom;
             AuthButtonPanel.Location = new Point(0, 330);
@@ -65,7 +74,7 @@ namespace FEMENESS_.UI.Authentication
             RegisterButton.Dock = DockStyle.Bottom;
             RegisterButton.FlatAppearance.BorderSize = 0;
             RegisterButton.FlatStyle = FlatStyle.Flat;
-            RegisterButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            RegisterButton.Font = new Font("Microsoft JhengHei", 14.25F);
             RegisterButton.ForeColor = Color.FromArgb(245, 245, 245);
             RegisterButton.Location = new Point(0, 58);
             RegisterButton.Name = "RegisterButton";
@@ -81,7 +90,7 @@ namespace FEMENESS_.UI.Authentication
             LoginButton.Dock = DockStyle.Top;
             LoginButton.FlatAppearance.BorderSize = 0;
             LoginButton.FlatStyle = FlatStyle.Flat;
-            LoginButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LoginButton.Font = new Font("Microsoft JhengHei", 14.25F);
             LoginButton.ForeColor = Color.FromArgb(196, 153, 131);
             LoginButton.Location = new Point(0, 0);
             LoginButton.Name = "LoginButton";
@@ -91,16 +100,64 @@ namespace FEMENESS_.UI.Authentication
             LoginButton.UseVisualStyleBackColor = false;
             LoginButton.Click += LoginButton_Click;
             // 
+            // panel1
+            // 
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(271, 98);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(454, 145);
+            panel1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft JhengHei", 12F);
+            label2.ForeColor = Color.FromArgb(135, 125, 113);
+            label2.Location = new Point(160, 111);
+            label2.Name = "label2";
+            label2.Size = new Size(143, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Our Commitment";
+            label2.TextAlign = ContentAlignment.BottomLeft;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft JhengHei", 12F);
+            label1.ForeColor = Color.FromArgb(135, 125, 113);
+            label1.Location = new Point(135, 86);
+            label1.Name = "label1";
+            label1.Size = new Size(189, 20);
+            label1.TabIndex = 1;
+            label1.Text = "Your Sexual Well-Being,";
+            label1.TextAlign = ContentAlignment.BottomLeft;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(0, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(454, 46);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
             // AuthPanel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
+            Controls.Add(panel1);
             Controls.Add(AuthButtonPanel);
             Name = "AuthPanel";
             Size = new Size(1000, 550);
             AuthButtonPanel.ResumeLayout(false);
             buttonWrapper.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -110,5 +167,9 @@ namespace FEMENESS_.UI.Authentication
         private Panel buttonWrapper;
         private Button RegisterButton;
         private Button LoginButton;
+        private Panel panel1;
+        private Label label2;
+        private Label label1;
+        private PictureBox pictureBox1;
     }
 }
