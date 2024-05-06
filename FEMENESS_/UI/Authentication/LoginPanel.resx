@@ -172,7 +172,7 @@
         AABAmoAFAAAAQJqABQAAAECagAUAAABA2O7X/wB9m1Z3Qvg3ywAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="logo_image.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAaoAAABCCAYAAAAG75KtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAP7BJREFUeF7tnXd8FcfV90PvCDDYxmBTHRtcMN3GFNGbAQMC0ZEoQhKgAkioCyEk

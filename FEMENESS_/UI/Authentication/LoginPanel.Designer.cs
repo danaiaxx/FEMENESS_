@@ -30,22 +30,23 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPanel));
             login_panel = new Panel();
+            Form = new Panel();
             panel1 = new Panel();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             panel2 = new Panel();
-            panel3 = new Panel();
-            forgot_button = new Button();
-            login_button = new Button();
-            panel4 = new Panel();
+            loginButton = new Button();
             button1 = new Button();
-            label2 = new Label();
+            passwordTextPanel = new Panel();
+            emailTextPanel = new Panel();
             label1 = new Label();
-            pictureBox1 = new PictureBox();
+            logo_image = new PictureBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             login_panel.SuspendLayout();
+            Form.SuspendLayout();
             panel1.SuspendLayout();
-            flowLayoutPanel1.SuspendLayout();
-            panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            passwordTextPanel.SuspendLayout();
+            emailTextPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)logo_image).BeginInit();
             SuspendLayout();
             // 
             // login_panel
@@ -53,148 +54,157 @@
             login_panel.BackColor = Color.FromArgb(250, 243, 233);
             login_panel.BackgroundImage = (Image)resources.GetObject("login_panel.BackgroundImage");
             login_panel.BackgroundImageLayout = ImageLayout.Stretch;
-            login_panel.Controls.Add(panel1);
+            login_panel.Controls.Add(Form);
             login_panel.Dock = DockStyle.Bottom;
-            login_panel.Location = new Point(0, 150);
+            login_panel.Location = new Point(0, 147);
             login_panel.Name = "login_panel";
-            login_panel.Size = new Size(1000, 400);
+            login_panel.Padding = new Padding(0, 50, 0, 50);
+            login_panel.Size = new Size(1000, 403);
             login_panel.TabIndex = 0;
+            // 
+            // Form
+            // 
+            Form.BackColor = Color.FromArgb(241, 223, 211);
+            Form.Controls.Add(panel1);
+            Form.Controls.Add(label1);
+            Form.Location = new Point(299, 53);
+            Form.Name = "Form";
+            Form.Size = new Size(420, 297);
+            Form.TabIndex = 0;
             // 
             // panel1
             // 
-            panel1.Controls.Add(flowLayoutPanel1);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(280, 70);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(loginButton);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(passwordTextPanel);
+            panel1.Controls.Add(emailTextPanel);
+            panel1.Location = new Point(0, 80);
             panel1.Name = "panel1";
-            panel1.Size = new Size(451, 286);
-            panel1.TabIndex = 0;
-            // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.Controls.Add(panel2);
-            flowLayoutPanel1.Controls.Add(panel3);
-            flowLayoutPanel1.Controls.Add(forgot_button);
-            flowLayoutPanel1.Controls.Add(login_button);
-            flowLayoutPanel1.Controls.Add(panel4);
-            flowLayoutPanel1.Location = new Point(0, 57);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(451, 226);
-            flowLayoutPanel1.TabIndex = 1;
+            panel1.Size = new Size(417, 217);
+            panel1.TabIndex = 1;
             // 
             // panel2
             // 
-            panel2.Location = new Point(3, 3);
+            panel2.Location = new Point(6, 190);
             panel2.Name = "panel2";
-            panel2.Size = new Size(448, 56);
-            panel2.TabIndex = 0;
+            panel2.Size = new Size(408, 24);
+            panel2.TabIndex = 4;
             // 
-            // panel3
+            // loginButton
             // 
-            panel3.Location = new Point(3, 65);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(448, 56);
-            panel3.TabIndex = 1;
-            // 
-            // forgot_button
-            // 
-            forgot_button.FlatStyle = FlatStyle.Flat;
-            forgot_button.Location = new Point(3, 127);
-            forgot_button.Name = "forgot_button";
-            forgot_button.Size = new Size(112, 34);
-            forgot_button.TabIndex = 2;
-            forgot_button.Text = "Forgot Password?";
-            forgot_button.UseVisualStyleBackColor = true;
-            // 
-            // login_button
-            // 
-            login_button.FlatStyle = FlatStyle.Flat;
-            login_button.Location = new Point(3, 167);
-            login_button.Name = "login_button";
-            login_button.Size = new Size(449, 23);
-            login_button.TabIndex = 3;
-            login_button.Text = "Login";
-            login_button.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            panel4.Controls.Add(button1);
-            panel4.Controls.Add(label2);
-            panel4.Location = new Point(3, 196);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(448, 41);
-            panel4.TabIndex = 4;
+            loginButton.BackColor = Color.FromArgb(245, 245, 245);
+            loginButton.FlatAppearance.BorderSize = 0;
+            loginButton.FlatStyle = FlatStyle.Flat;
+            loginButton.Location = new Point(3, 143);
+            loginButton.Name = "loginButton";
+            loginButton.Size = new Size(411, 44);
+            loginButton.TabIndex = 3;
+            loginButton.Text = "Login";
+            loginButton.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(253, 6);
+            button1.Location = new Point(305, 103);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 1;
-            button1.Text = "signup";
+            button1.Size = new Size(109, 23);
+            button1.TabIndex = 2;
+            button1.Text = "Forgot password?";
             button1.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // passwordTextPanel
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(118, 10);
-            label2.Name = "label2";
-            label2.Size = new Size(131, 15);
-            label2.TabIndex = 0;
-            label2.Text = "Don't have an account?";
+            passwordTextPanel.BackColor = Color.FromArgb(245, 245, 245);
+            passwordTextPanel.Controls.Add(textBox2);
+            passwordTextPanel.Location = new Point(4, 53);
+            passwordTextPanel.Name = "passwordTextPanel";
+            passwordTextPanel.Padding = new Padding(10);
+            passwordTextPanel.Size = new Size(410, 44);
+            passwordTextPanel.TabIndex = 1;
+            // 
+            // emailTextPanel
+            // 
+            emailTextPanel.BackColor = Color.FromArgb(245, 245, 245);
+            emailTextPanel.Controls.Add(textBox1);
+            emailTextPanel.Location = new Point(5, 3);
+            emailTextPanel.Name = "emailTextPanel";
+            emailTextPanel.Padding = new Padding(5, 10, 5, 10);
+            emailTextPanel.Size = new Size(409, 44);
+            emailTextPanel.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(176, 19);
+            label1.Font = new Font("Microsoft JhengHei", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(115, 10);
             label1.Name = "label1";
-            label1.Size = new Size(85, 15);
+            label1.Size = new Size(195, 31);
             label1.TabIndex = 0;
-            label1.Text = "Welcome Back";
-            label1.TextAlign = ContentAlignment.MiddleLeft;
+            label1.Text = "Welcome Back!";
+            label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // pictureBox1
+            // logo_image
             // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(275, 50);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(454, 46);
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
+            logo_image.BackgroundImage = (Image)resources.GetObject("logo_image.BackgroundImage");
+            logo_image.BackgroundImageLayout = ImageLayout.Zoom;
+            logo_image.Location = new Point(275, 50);
+            logo_image.Name = "logo_image";
+            logo_image.Size = new Size(454, 46);
+            logo_image.TabIndex = 1;
+            logo_image.TabStop = false;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Location = new Point(11, 13);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(389, 16);
+            textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Location = new Point(11, 14);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(389, 16);
+            textBox2.TabIndex = 1;
             // 
             // LoginPanel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
-            Controls.Add(pictureBox1);
+            Controls.Add(logo_image);
             Controls.Add(login_panel);
             Name = "LoginPanel";
             Size = new Size(1000, 550);
             login_panel.ResumeLayout(false);
+            Form.ResumeLayout(false);
+            Form.PerformLayout();
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            flowLayoutPanel1.ResumeLayout(false);
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            passwordTextPanel.ResumeLayout(false);
+            passwordTextPanel.PerformLayout();
+            emailTextPanel.ResumeLayout(false);
+            emailTextPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)logo_image).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel login_panel;
-        private PictureBox pictureBox1;
-        private Panel panel1;
+        private PictureBox logo_image;
+        private Panel Form;
         private Label label1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private Panel panel1;
+        private Panel passwordTextPanel;
+        private Panel emailTextPanel;
         private Panel panel2;
-        private Panel panel3;
-        private Button forgot_button;
-        private Button login_button;
-        private Panel panel4;
+        private Button loginButton;
         private Button button1;
-        private Label label2;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }
