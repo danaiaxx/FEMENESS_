@@ -82,6 +82,12 @@ namespace FEMENESS_.UI.Authentication
             // Your register button click logic
             this.Visible = false;
 
+            RegistrationPanel registrationPanel = new UI.Authentication.RegistrationPanel();
+            registrationPanel.Dock = DockStyle.Fill; // Fill the container with the login panel
+            Parent.Controls.Add(registrationPanel); // Add the login panel to the same container
+
+            Parent.Controls.Remove(this);
+
         }
     }
 }

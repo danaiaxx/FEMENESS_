@@ -74,7 +74,7 @@ namespace FEMENESS_.UI.Authentication
             RegisterButton.Dock = DockStyle.Bottom;
             RegisterButton.FlatAppearance.BorderSize = 0;
             RegisterButton.FlatStyle = FlatStyle.Flat;
-            RegisterButton.Font = new Font("Microsoft JhengHei", 14.25F);
+            RegisterButton.Font = new Font("Microsoft PhagsPa", 14.25F, FontStyle.Bold);
             RegisterButton.ForeColor = Color.FromArgb(245, 245, 245);
             RegisterButton.Location = new Point(0, 58);
             RegisterButton.Name = "RegisterButton";
@@ -90,7 +90,7 @@ namespace FEMENESS_.UI.Authentication
             LoginButton.Dock = DockStyle.Top;
             LoginButton.FlatAppearance.BorderSize = 0;
             LoginButton.FlatStyle = FlatStyle.Flat;
-            LoginButton.Font = new Font("Microsoft JhengHei", 14.25F);
+            LoginButton.Font = new Font("Microsoft PhagsPa", 14.25F, FontStyle.Bold);
             LoginButton.ForeColor = Color.FromArgb(196, 153, 131);
             LoginButton.Location = new Point(0, 0);
             LoginButton.Name = "LoginButton";
@@ -113,11 +113,11 @@ namespace FEMENESS_.UI.Authentication
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Microsoft JhengHei", 12F);
+            label2.Font = new Font("Microsoft PhagsPa", 12F);
             label2.ForeColor = Color.FromArgb(135, 125, 113);
             label2.Location = new Point(160, 111);
             label2.Name = "label2";
-            label2.Size = new Size(143, 20);
+            label2.Size = new Size(133, 21);
             label2.TabIndex = 2;
             label2.Text = "Our Commitment";
             label2.TextAlign = ContentAlignment.BottomLeft;
@@ -125,11 +125,11 @@ namespace FEMENESS_.UI.Authentication
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Microsoft JhengHei", 12F);
+            label1.Font = new Font("Microsoft PhagsPa", 12F);
             label1.ForeColor = Color.FromArgb(135, 125, 113);
             label1.Location = new Point(135, 86);
             label1.Name = "label1";
-            label1.Size = new Size(189, 20);
+            label1.Size = new Size(175, 21);
             label1.TabIndex = 1;
             label1.Text = "Your Sexual Well-Being,";
             label1.TextAlign = ContentAlignment.BottomLeft;

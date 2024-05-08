@@ -7,7 +7,31 @@
     <Compile Update="UI\Authentication\AuthPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\Authentication\RegistrationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\Authentication\LoginPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\Cart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\HomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\InsightPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\ShopPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\MainPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

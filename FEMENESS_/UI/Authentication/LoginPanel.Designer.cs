@@ -1,4 +1,5 @@
-﻿namespace FEMENESS_.UI.Authentication
+﻿
+namespace FEMENESS_.UI.Authentication
 {
     partial class LoginPanel
     {
@@ -33,17 +34,20 @@
             Form = new Panel();
             panel1 = new Panel();
             panel2 = new Panel();
+            label2 = new Label();
+            redirectToRegister = new Button();
             loginButton = new Button();
             button1 = new Button();
             passwordTextPanel = new Panel();
+            password_textbox = new TextBox();
             emailTextPanel = new Panel();
+            name_textbox = new TextBox();
             label1 = new Label();
             logo_image = new PictureBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
             login_panel.SuspendLayout();
             Form.SuspendLayout();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             passwordTextPanel.SuspendLayout();
             emailTextPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo_image).BeginInit();
@@ -60,7 +64,7 @@
             login_panel.Name = "login_panel";
             login_panel.Padding = new Padding(0, 50, 0, 50);
             login_panel.Size = new Size(1000, 403);
-            login_panel.TabIndex = 0;
+            login_panel.TabIndex = 1;
             // 
             // Form
             // 
@@ -81,35 +85,66 @@
             panel1.Controls.Add(emailTextPanel);
             panel1.Location = new Point(0, 80);
             panel1.Name = "panel1";
-            panel1.Size = new Size(417, 217);
+            panel1.Size = new Size(417, 221);
             panel1.TabIndex = 1;
             // 
             // panel2
             // 
-            panel2.Location = new Point(6, 190);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(redirectToRegister);
+            panel2.Location = new Point(4, 190);
             panel2.Name = "panel2";
             panel2.Size = new Size(408, 24);
             panel2.TabIndex = 4;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft PhagsPa", 11.25F);
+            label2.ForeColor = Color.FromArgb(81, 80, 80);
+            label2.Location = new Point(89, 3);
+            label2.Name = "label2";
+            label2.Size = new Size(160, 20);
+            label2.TabIndex = 0;
+            label2.Text = "Dont have an account?";
+            // 
+            // redirectToRegister
+            // 
+            redirectToRegister.FlatAppearance.BorderSize = 0;
+            redirectToRegister.FlatStyle = FlatStyle.Flat;
+            redirectToRegister.Font = new Font("Microsoft PhagsPa", 11.25F);
+            redirectToRegister.Location = new Point(244, -2);
+            redirectToRegister.Name = "redirectToRegister";
+            redirectToRegister.Size = new Size(86, 26);
+            redirectToRegister.TabIndex = 1;
+            redirectToRegister.Text = "Sign up";
+            redirectToRegister.UseVisualStyleBackColor = true;
+            redirectToRegister.Click += redirectToRegister_Click;
+            // 
             // loginButton
             // 
-            loginButton.BackColor = Color.FromArgb(245, 245, 245);
+            loginButton.BackColor = Color.FromArgb(196, 153, 131);
             loginButton.FlatAppearance.BorderSize = 0;
             loginButton.FlatStyle = FlatStyle.Flat;
+            loginButton.Font = new Font("Microsoft PhagsPa", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            loginButton.ForeColor = Color.WhiteSmoke;
             loginButton.Location = new Point(3, 143);
             loginButton.Name = "loginButton";
             loginButton.Size = new Size(411, 44);
             loginButton.TabIndex = 3;
             loginButton.Text = "Login";
             loginButton.UseVisualStyleBackColor = false;
+            loginButton.Click += loginButton_Click;
             // 
             // button1
             // 
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(305, 103);
+            button1.Font = new Font("Microsoft PhagsPa", 11.25F);
+            button1.ForeColor = Color.FromArgb(81, 80, 80);
+            button1.Location = new Point(278, 98);
             button1.Name = "button1";
-            button1.Size = new Size(109, 23);
+            button1.Size = new Size(135, 25);
             button1.TabIndex = 2;
             button1.Text = "Forgot password?";
             button1.UseVisualStyleBackColor = true;
@@ -117,30 +152,51 @@
             // passwordTextPanel
             // 
             passwordTextPanel.BackColor = Color.FromArgb(245, 245, 245);
-            passwordTextPanel.Controls.Add(textBox2);
+            passwordTextPanel.Controls.Add(password_textbox);
             passwordTextPanel.Location = new Point(4, 53);
             passwordTextPanel.Name = "passwordTextPanel";
             passwordTextPanel.Padding = new Padding(10);
             passwordTextPanel.Size = new Size(410, 44);
             passwordTextPanel.TabIndex = 1;
             // 
+            // password_textbox
+            // 
+            password_textbox.BackColor = Color.WhiteSmoke;
+            password_textbox.BorderStyle = BorderStyle.None;
+            password_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
+            password_textbox.Location = new Point(11, 13);
+            password_textbox.Name = "password_textbox";
+            password_textbox.Size = new Size(389, 20);
+            password_textbox.TabIndex = 1;
+            // 
             // emailTextPanel
             // 
             emailTextPanel.BackColor = Color.FromArgb(245, 245, 245);
-            emailTextPanel.Controls.Add(textBox1);
+            emailTextPanel.Controls.Add(name_textbox);
             emailTextPanel.Location = new Point(5, 3);
             emailTextPanel.Name = "emailTextPanel";
-            emailTextPanel.Padding = new Padding(5, 10, 5, 10);
+            emailTextPanel.Padding = new Padding(10);
             emailTextPanel.Size = new Size(409, 44);
             emailTextPanel.TabIndex = 0;
+            // 
+            // name_textbox
+            // 
+            name_textbox.BackColor = Color.WhiteSmoke;
+            name_textbox.BorderStyle = BorderStyle.None;
+            name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
+            name_textbox.Location = new Point(10, 13);
+            name_textbox.Name = "name_textbox";
+            name_textbox.Size = new Size(389, 20);
+            name_textbox.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Microsoft JhengHei", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft PhagsPa", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(81, 80, 80);
             label1.Location = new Point(115, 10);
             label1.Name = "label1";
-            label1.Size = new Size(195, 31);
+            label1.Size = new Size(188, 32);
             label1.TabIndex = 0;
             label1.Text = "Welcome Back!";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -149,27 +205,11 @@
             // 
             logo_image.BackgroundImage = (Image)resources.GetObject("logo_image.BackgroundImage");
             logo_image.BackgroundImageLayout = ImageLayout.Zoom;
-            logo_image.Location = new Point(275, 50);
+            logo_image.Location = new Point(280, 45);
             logo_image.Name = "logo_image";
             logo_image.Size = new Size(454, 46);
-            logo_image.TabIndex = 1;
+            logo_image.TabIndex = 2;
             logo_image.TabStop = false;
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Location = new Point(11, 13);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(389, 16);
-            textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Location = new Point(11, 14);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(389, 16);
-            textBox2.TabIndex = 1;
             // 
             // LoginPanel
             // 
@@ -184,6 +224,8 @@
             Form.ResumeLayout(false);
             Form.PerformLayout();
             panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             passwordTextPanel.ResumeLayout(false);
             passwordTextPanel.PerformLayout();
             emailTextPanel.ResumeLayout(false);
@@ -192,19 +234,22 @@
             ResumeLayout(false);
         }
 
+
         #endregion
 
         private Panel login_panel;
-        private PictureBox logo_image;
         private Panel Form;
-        private Label label1;
         private Panel panel1;
-        private Panel passwordTextPanel;
-        private Panel emailTextPanel;
         private Panel panel2;
+        private Label label2;
+        private Button redirectToRegister;
         private Button loginButton;
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Panel passwordTextPanel;
+        private TextBox password_textbox;
+        private Panel emailTextPanel;
+        private Label label1;
+        private PictureBox logo_image;
+        private TextBox name_textbox;
     }
 }
