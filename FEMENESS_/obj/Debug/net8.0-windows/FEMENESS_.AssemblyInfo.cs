@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FEMENESS_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60f12698ebba4eba4e10d509a49f418b6b1f8c63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23793d2b140b15e73cabe7e069a9e9ac60b1831d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FEMENESS_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FEMENESS_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
