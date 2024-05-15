@@ -1,4 +1,5 @@
-﻿using FEMENESS_.UI.Authentication;
+﻿using FEMENESS_.Backend;
+using FEMENESS_.UI.Authentication;
 using FEMENESS_.UI.Main.Features;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,14 @@ namespace FEMENESS_.UI.Main
 {
     public partial class MainPanel : UserControl
     {
-        public MainPanel()
+        private LoginPanel loginPanel;
+        private User loggedUser;
+        private BackendService backendService;
+        public MainPanel(LoginPanel loginPanel, BackendService backendService, User loggedUser)
         {
+            this.loggedUser = loggedUser;
+            this.backendService = backendService;
+            this.loginPanel = loginPanel;
             InitializeComponent();
         }
 
@@ -43,7 +50,7 @@ namespace FEMENESS_.UI.Main
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
-            SwitchToPanel(new UI.Main.Features.Profile());
+            SwitchToPanel(new UI.Main.Features.Profile(loginPanel, loggedUser, backendService));
 
         }
 
@@ -55,7 +62,15 @@ namespace FEMENESS_.UI.Main
 
         private void SwitchToPanel(Control newPanel)
         {
-            newPanel.Dock = DockStyle.Fill;
+            // Determine the dock style based on the type of panel
+            if (newPanel is HomePanel || newPanel is About)
+            {
+                newPanel.Dock = DockStyle.Bottom;
+            }
+            else
+            {
+                newPanel.Dock = DockStyle.Fill;
+            }
 
             // Remove the current panel from the center_panel's Controls collection
             var currentPanel = this.center_panel.Controls.OfType<Control>().FirstOrDefault();
@@ -66,7 +81,18 @@ namespace FEMENESS_.UI.Main
 
             // Add the new panel to the center_panel
             this.center_panel.Controls.Add(newPanel);
+
+            // Enable or disable IconButton5 based on the type of panel
+            if (newPanel is Profile)
+            {
+                iconButton5.Enabled = false;
+            }
+            else
+            {
+                iconButton5.Enabled = true;
+            }
         }
+
 
     }
 }

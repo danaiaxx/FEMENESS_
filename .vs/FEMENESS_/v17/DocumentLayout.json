@@ -1,46 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\",
+  "WorkspaceRootPath": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\main\\features\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\main\\features\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\femeness_\\ui\\main\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\authentication\\registrationpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\registrationpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\main\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\forgetpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\forgetpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\datan\\source\\repos\\femeness_\\femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\accountsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\accountsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\backend\\backendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\backend\\backendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\accountsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\accountsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\accountsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\accountsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\homepanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\homepanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\homepanel.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\homepanel.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\about.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\about.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\accountsettings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\accountsettings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\authentication\\authpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\ui\\main\\mainpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\mainpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\mainpanel.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\mainpanel.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|c:\\users\\user\\onedrive\\documents\\github\\femeness_\\femeness_\\app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\backend\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\backend\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|C:\\Users\\datan\\source\\repos\\FEMENESS_\\femeness_\\ui\\main\\features\\insightcontent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A008BD-85B6-4229-AF7A-97F467CC5820}|FEMENESS_\\FEMENESS_.csproj|solutionrelative:femeness_\\ui\\main\\features\\insightcontent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,70 +122,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profile.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
-              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:38:37.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\Profile.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.cs [Design]",
-              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:30:21.632Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrationPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\RegistrationPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\RegistrationPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\RegistrationPanel.cs [Design]",
-              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\RegistrationPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:27:45.584Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs [Design]",
-              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:26:56.418Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPanel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "RelativeToolTip": "FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:30:56.152Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -121,64 +131,332 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\MainPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs [Design]",
-              "RelativeToolTip": "FEMENESS_\\UI\\Main\\MainPanel.cs [Design]",
+              "Title": "ForgetPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\ForgetPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\ForgetPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\ForgetPanel.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\ForgetPanel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:23:26.221Z",
+              "WhenOpened": "2024-05-14T17:46:05.169Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:42:30.374Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPanel.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAmwH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:14:31.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthPanel.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:29:35.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\AuthPanel.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\AuthPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:29:31.905Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwBoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:12:35.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "About.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\About.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\About.Designer.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAAwAwBAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:09:42.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\Backend\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\Backend\\Auth\\User.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\Backend\\Auth\\User.cs",
+              "RelativeToolTip": "FEMENESS_\\Backend\\Auth\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:17:56.73Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs [Design]",
-              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs [Design]",
+              "Title": "BackendService.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\Backend\\BackendService.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\Backend\\BackendService.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\Backend\\BackendService.cs",
+              "RelativeToolTip": "FEMENESS_\\Backend\\BackendService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowB4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:09:54.961Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginPanel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "RelativeToolTip": "FEMENESS_\\UI\\Authentication\\LoginPanel.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAADwvzkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T17:22:59.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\App.Designer.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\App.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\App.Designer.cs",
-              "RelativeToolTip": "FEMENESS_\\App.Designer.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T16:42:51.661Z"
+              "WhenOpened": "2024-05-14T13:17:57.617Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MainPanel.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.Designer.cs",
-              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\MainPanel.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.Designer.cs",
-              "RelativeToolTip": "FEMENESS_\\UI\\Main\\MainPanel.Designer.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBYAAAAIAAAA",
+              "Title": "AccountSettings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:52:24.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:04:25.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomePanel.resx",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.resx",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\HomePanel.resx",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.resx",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\HomePanel.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-14T11:08:27.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountSettings.resx",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.resx",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.resx",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.resx",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-14T11:08:27.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountSettings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:51:46.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Profile.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\Profile.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:35:39.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountSettings.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\AccountSettings.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwDQAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:39:21.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\Profile.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\Profile.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\Profile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwC8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:35:42.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\About.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\About.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:31:20.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InsightPanel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:29:05.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InsightContent.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightContent.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightContent.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:28:57.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainPanel.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\MainPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\MainPanel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:33:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainPanel.resx",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.resx",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\MainPanel.resx",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\MainPanel.resx",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\MainPanel.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-13T15:33:48.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InsightContent.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:22:38.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InsightPanel.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:21:15.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InsightContent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightContent.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightContent.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightContent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:12:41.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InsightPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\InsightPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:38:27.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePanel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.Designer.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\HomePanel.Designer.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.Designer.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\HomePanel.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:31:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePanel.cs",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:17:28.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomePanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "RelativeDocumentMoniker": "FEMENESS_\\UI\\Main\\Features\\HomePanel.cs",
+              "ToolTip": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\UI\\Main\\Features\\HomePanel.cs [Design]",
+              "RelativeToolTip": "FEMENESS_\\UI\\Main\\Features\\HomePanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:07:08.283Z"
             }
           ]
         }

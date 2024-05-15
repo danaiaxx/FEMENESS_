@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj": {}
+    "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj": {
+    "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
+        "projectUniqueName": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
         "projectName": "FEMENESS_",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\obj\\",
+        "projectPath": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
+        "packagesPath": "C:\\Users\\datan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\datan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

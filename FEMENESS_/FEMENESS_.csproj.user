@@ -16,10 +16,19 @@
     <Compile Update="UI\Main\Features\About.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\Main\Features\AccountSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\Main\Features\Cart.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\Main\Features\ForgetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\Main\Features\HomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\InsightContent.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\Main\Features\InsightPanel.cs">

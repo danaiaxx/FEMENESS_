@@ -32,6 +32,7 @@ namespace FEMENESS_.UI.Authentication
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPanel));
             login_panel = new Panel();
             Form = new Panel();
+            errorLabel = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
             label2 = new Label();
@@ -60,23 +61,31 @@ namespace FEMENESS_.UI.Authentication
             login_panel.BackgroundImageLayout = ImageLayout.Stretch;
             login_panel.Controls.Add(Form);
             login_panel.Dock = DockStyle.Bottom;
-            login_panel.Location = new Point(0, 196);
-            login_panel.Margin = new Padding(3, 4, 3, 4);
+            login_panel.Location = new Point(0, 147);
             login_panel.Name = "login_panel";
-            login_panel.Padding = new Padding(0, 67, 0, 67);
-            login_panel.Size = new Size(1143, 537);
+            login_panel.Padding = new Padding(0, 50, 0, 50);
+            login_panel.Size = new Size(1000, 403);
             login_panel.TabIndex = 1;
             // 
             // Form
             // 
             Form.BackColor = Color.FromArgb(241, 223, 211);
+            Form.Controls.Add(errorLabel);
             Form.Controls.Add(panel1);
             Form.Controls.Add(label1);
-            Form.Location = new Point(342, 71);
-            Form.Margin = new Padding(3, 4, 3, 4);
+            Form.Location = new Point(299, 53);
             Form.Name = "Form";
-            Form.Size = new Size(480, 396);
+            Form.Size = new Size(420, 297);
             Form.TabIndex = 0;
+            // 
+            // errorLabel
+            // 
+            errorLabel.AutoSize = true;
+            errorLabel.ForeColor = Color.IndianRed;
+            errorLabel.Location = new Point(7, 58);
+            errorLabel.Name = "errorLabel";
+            errorLabel.Size = new Size(0, 15);
+            errorLabel.TabIndex = 2;
             // 
             // panel1
             // 
@@ -85,20 +94,18 @@ namespace FEMENESS_.UI.Authentication
             panel1.Controls.Add(button1);
             panel1.Controls.Add(passwordTextPanel);
             panel1.Controls.Add(emailTextPanel);
-            panel1.Location = new Point(0, 107);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(1, 80);
             panel1.Name = "panel1";
-            panel1.Size = new Size(477, 295);
+            panel1.Size = new Size(417, 221);
             panel1.TabIndex = 1;
             // 
             // panel2
             // 
             panel2.Controls.Add(label2);
             panel2.Controls.Add(redirectToRegister);
-            panel2.Location = new Point(5, 253);
-            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Location = new Point(4, 190);
             panel2.Name = "panel2";
-            panel2.Size = new Size(466, 32);
+            panel2.Size = new Size(408, 24);
             panel2.TabIndex = 4;
             // 
             // label2
@@ -106,9 +113,9 @@ namespace FEMENESS_.UI.Authentication
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft PhagsPa", 11.25F);
             label2.ForeColor = Color.FromArgb(81, 80, 80);
-            label2.Location = new Point(82, 4);
+            label2.Location = new Point(88, 3);
             label2.Name = "label2";
-            label2.Size = new Size(203, 24);
+            label2.Size = new Size(160, 20);
             label2.TabIndex = 0;
             label2.Text = "Dont have an account?";
             // 
@@ -117,10 +124,9 @@ namespace FEMENESS_.UI.Authentication
             redirectToRegister.FlatAppearance.BorderSize = 0;
             redirectToRegister.FlatStyle = FlatStyle.Flat;
             redirectToRegister.Font = new Font("Microsoft PhagsPa", 11.25F);
-            redirectToRegister.Location = new Point(290, -3);
-            redirectToRegister.Margin = new Padding(3, 4, 3, 4);
+            redirectToRegister.Location = new Point(249, -2);
             redirectToRegister.Name = "redirectToRegister";
-            redirectToRegister.Size = new Size(98, 35);
+            redirectToRegister.Size = new Size(72, 30);
             redirectToRegister.TabIndex = 1;
             redirectToRegister.Text = "Sign up";
             redirectToRegister.UseVisualStyleBackColor = true;
@@ -133,10 +139,9 @@ namespace FEMENESS_.UI.Authentication
             loginButton.FlatStyle = FlatStyle.Flat;
             loginButton.Font = new Font("Microsoft PhagsPa", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             loginButton.ForeColor = Color.WhiteSmoke;
-            loginButton.Location = new Point(3, 191);
-            loginButton.Margin = new Padding(3, 4, 3, 4);
+            loginButton.Location = new Point(3, 143);
             loginButton.Name = "loginButton";
-            loginButton.Size = new Size(470, 59);
+            loginButton.Size = new Size(411, 44);
             loginButton.TabIndex = 3;
             loginButton.Text = "Login";
             loginButton.UseVisualStyleBackColor = false;
@@ -148,23 +153,22 @@ namespace FEMENESS_.UI.Authentication
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Microsoft PhagsPa", 11.25F);
             button1.ForeColor = Color.FromArgb(81, 80, 80);
-            button1.Location = new Point(295, 131);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(258, 98);
             button1.Name = "button1";
-            button1.Size = new Size(177, 33);
+            button1.Size = new Size(155, 28);
             button1.TabIndex = 2;
             button1.Text = "Forgot password?";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // passwordTextPanel
             // 
             passwordTextPanel.BackColor = Color.FromArgb(245, 245, 245);
             passwordTextPanel.Controls.Add(password_textbox);
-            passwordTextPanel.Location = new Point(5, 71);
-            passwordTextPanel.Margin = new Padding(3, 4, 3, 4);
+            passwordTextPanel.Location = new Point(4, 53);
             passwordTextPanel.Name = "passwordTextPanel";
-            passwordTextPanel.Padding = new Padding(11, 13, 11, 13);
-            passwordTextPanel.Size = new Size(469, 59);
+            passwordTextPanel.Padding = new Padding(10);
+            passwordTextPanel.Size = new Size(410, 44);
             passwordTextPanel.TabIndex = 1;
             // 
             // password_textbox
@@ -172,21 +176,19 @@ namespace FEMENESS_.UI.Authentication
             password_textbox.BackColor = Color.WhiteSmoke;
             password_textbox.BorderStyle = BorderStyle.None;
             password_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            password_textbox.Location = new Point(13, 17);
-            password_textbox.Margin = new Padding(3, 4, 3, 4);
+            password_textbox.Location = new Point(11, 13);
             password_textbox.Name = "password_textbox";
-            password_textbox.Size = new Size(445, 24);
+            password_textbox.Size = new Size(389, 20);
             password_textbox.TabIndex = 1;
             // 
             // emailTextPanel
             // 
             emailTextPanel.BackColor = Color.FromArgb(245, 245, 245);
             emailTextPanel.Controls.Add(name_textbox);
-            emailTextPanel.Location = new Point(6, 4);
-            emailTextPanel.Margin = new Padding(3, 4, 3, 4);
+            emailTextPanel.Location = new Point(5, 3);
             emailTextPanel.Name = "emailTextPanel";
-            emailTextPanel.Padding = new Padding(11, 13, 11, 13);
-            emailTextPanel.Size = new Size(467, 59);
+            emailTextPanel.Padding = new Padding(10);
+            emailTextPanel.Size = new Size(409, 44);
             emailTextPanel.TabIndex = 0;
             // 
             // name_textbox
@@ -194,10 +196,9 @@ namespace FEMENESS_.UI.Authentication
             name_textbox.BackColor = Color.WhiteSmoke;
             name_textbox.BorderStyle = BorderStyle.None;
             name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            name_textbox.Location = new Point(11, 17);
-            name_textbox.Margin = new Padding(3, 4, 3, 4);
+            name_textbox.Location = new Point(10, 13);
             name_textbox.Name = "name_textbox";
-            name_textbox.Size = new Size(445, 24);
+            name_textbox.Size = new Size(389, 20);
             name_textbox.TabIndex = 2;
             // 
             // label1
@@ -205,9 +206,9 @@ namespace FEMENESS_.UI.Authentication
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft PhagsPa", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(81, 80, 80);
-            label1.Location = new Point(131, 13);
+            label1.Location = new Point(115, 10);
             label1.Name = "label1";
-            label1.Size = new Size(231, 39);
+            label1.Size = new Size(188, 32);
             label1.TabIndex = 0;
             label1.Text = "Welcome Back!";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -216,23 +217,21 @@ namespace FEMENESS_.UI.Authentication
             // 
             logo_image.BackgroundImage = (Image)resources.GetObject("logo_image.BackgroundImage");
             logo_image.BackgroundImageLayout = ImageLayout.Zoom;
-            logo_image.Location = new Point(320, 60);
-            logo_image.Margin = new Padding(3, 4, 3, 4);
+            logo_image.Location = new Point(280, 45);
             logo_image.Name = "logo_image";
-            logo_image.Size = new Size(519, 61);
+            logo_image.Size = new Size(454, 46);
             logo_image.TabIndex = 2;
             logo_image.TabStop = false;
             // 
             // LoginPanel
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
             Controls.Add(logo_image);
             Controls.Add(login_panel);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginPanel";
-            Size = new Size(1143, 733);
+            Size = new Size(1000, 550);
             login_panel.ResumeLayout(false);
             Form.ResumeLayout(false);
             Form.PerformLayout();
@@ -264,5 +263,6 @@ namespace FEMENESS_.UI.Authentication
         private Label label1;
         private PictureBox logo_image;
         private TextBox name_textbox;
+        private Label errorLabel;
     }
 }

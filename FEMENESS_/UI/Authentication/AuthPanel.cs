@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FEMENESS_.Backend;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,11 @@ namespace FEMENESS_.UI.Authentication
 {
     public partial class AuthPanel : UserControl
     {
+        BackendService backendService;
+
         public AuthPanel()
         {
+            backendService = new BackendService();
             InitializeComponent();
             // Add event handlers for mouse enter and leave events for the buttons
             LoginButton.MouseEnter += Button_MouseEnter;
@@ -70,11 +74,10 @@ namespace FEMENESS_.UI.Authentication
             this.Visible = false;
 
             // Show the login panel
-            LoginPanel loginPanel = new UI.Authentication.LoginPanel();
+            LoginPanel loginPanel = new UI.Authentication.LoginPanel(backendService);
             loginPanel.Dock = DockStyle.Fill; // Fill the container with the login panel
             Parent.Controls.Add(loginPanel); // Add the login panel to the same container
 
-            Parent.Controls.Remove(this);
         }
 
         private void RegisterButton_Click(object sender, EventArgs e)
@@ -82,12 +85,11 @@ namespace FEMENESS_.UI.Authentication
             // Your register button click logic
             this.Visible = false;
 
-            RegistrationPanel registrationPanel = new UI.Authentication.RegistrationPanel();
+            RegistrationPanel registrationPanel = new UI.Authentication.RegistrationPanel(backendService);
             registrationPanel.Dock = DockStyle.Fill; // Fill the container with the login panel
             Parent.Controls.Add(registrationPanel); // Add the login panel to the same container
 
-            Parent.Controls.Remove(this);
-
+            Console.Write("Hello");
         }
     }
 }

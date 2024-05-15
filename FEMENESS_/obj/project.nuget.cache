@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cPEwHRyCrrAHa/E7CL6YrwDbF3EVdJ0YZWvzzlhy3s7W/RovqCfGyYBcfTCsZ3qzzsxq8x7FfuOkqEcVw9qMgQ==",
+  "dgSpecHash": "fXipGNQrU0OCT34Va87PD1wEXimVpgNQyImQKDmy7rvv8yQDKqIXzv0MraSkDGhEmHVaUlRe6IQrtcemN3lC2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
+  "projectFilePath": "C:\\Users\\datan\\source\\repos\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
+    "C:\\Users\\datan\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
   ],
   "logs": []
 }

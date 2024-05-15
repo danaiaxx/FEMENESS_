@@ -65,11 +65,10 @@
             login_panel.BackgroundImageLayout = ImageLayout.Stretch;
             login_panel.Controls.Add(Form);
             login_panel.Dock = DockStyle.Bottom;
-            login_panel.Location = new Point(0, 196);
-            login_panel.Margin = new Padding(3, 4, 3, 4);
+            login_panel.Location = new Point(0, 147);
             login_panel.Name = "login_panel";
-            login_panel.Padding = new Padding(0, 33, 0, 33);
-            login_panel.Size = new Size(1143, 537);
+            login_panel.Padding = new Padding(0, 25, 0, 25);
+            login_panel.Size = new Size(1000, 403);
             login_panel.TabIndex = 0;
             // 
             // Form
@@ -78,10 +77,9 @@
             Form.Controls.Add(errorLabel);
             Form.Controls.Add(panel1);
             Form.Controls.Add(label1);
-            Form.Location = new Point(342, 37);
-            Form.Margin = new Padding(3, 4, 3, 4);
+            Form.Location = new Point(299, 28);
             Form.Name = "Form";
-            Form.Size = new Size(480, 463);
+            Form.Size = new Size(420, 347);
             Form.TabIndex = 0;
             // 
             // errorLabel
@@ -89,9 +87,9 @@
             errorLabel.AutoSize = true;
             errorLabel.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             errorLabel.ForeColor = Color.IndianRed;
-            errorLabel.Location = new Point(10, 55);
+            errorLabel.Location = new Point(9, 41);
             errorLabel.Name = "errorLabel";
-            errorLabel.Size = new Size(0, 22);
+            errorLabel.Size = new Size(0, 17);
             errorLabel.TabIndex = 2;
             errorLabel.TextAlign = ContentAlignment.TopCenter;
             // 
@@ -103,74 +101,68 @@
             panel1.Controls.Add(registerButton);
             panel1.Controls.Add(passwordTextPanel);
             panel1.Controls.Add(emailTextPanel);
-            panel1.Location = new Point(0, 80);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(0, 60);
             panel1.Name = "panel1";
-            panel1.Size = new Size(477, 379);
+            panel1.Size = new Size(417, 284);
             panel1.TabIndex = 1;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(245, 245, 245);
             panel4.Controls.Add(confirmPassword_textbox);
-            panel4.Location = new Point(5, 201);
-            panel4.Margin = new Padding(3, 4, 3, 4);
+            panel4.Location = new Point(4, 151);
             panel4.Name = "panel4";
-            panel4.Padding = new Padding(11, 13, 11, 13);
-            panel4.Size = new Size(469, 59);
-            panel4.TabIndex = 2;
+            panel4.Padding = new Padding(10);
+            panel4.Size = new Size(410, 44);
+            panel4.TabIndex = 3;
             // 
             // confirmPassword_textbox
             // 
             confirmPassword_textbox.BackColor = Color.WhiteSmoke;
             confirmPassword_textbox.BorderStyle = BorderStyle.None;
             confirmPassword_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            confirmPassword_textbox.Location = new Point(11, 17);
-            confirmPassword_textbox.Margin = new Padding(3, 4, 3, 4);
+            confirmPassword_textbox.Location = new Point(10, 13);
             confirmPassword_textbox.Name = "confirmPassword_textbox";
-            confirmPassword_textbox.Size = new Size(445, 24);
+            confirmPassword_textbox.Size = new Size(389, 20);
             confirmPassword_textbox.TabIndex = 1;
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(245, 245, 245);
             panel3.Controls.Add(password_textbox);
-            panel3.Location = new Point(5, 135);
-            panel3.Margin = new Padding(3, 4, 3, 4);
+            panel3.Location = new Point(4, 101);
             panel3.Name = "panel3";
-            panel3.Padding = new Padding(11, 13, 11, 13);
-            panel3.Size = new Size(469, 59);
-            panel3.TabIndex = 5;
+            panel3.Padding = new Padding(10);
+            panel3.Size = new Size(410, 44);
+            panel3.TabIndex = 2;
             // 
             // password_textbox
             // 
             password_textbox.BackColor = Color.WhiteSmoke;
             password_textbox.BorderStyle = BorderStyle.None;
             password_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            password_textbox.Location = new Point(11, 19);
-            password_textbox.Margin = new Padding(3, 4, 3, 4);
+            password_textbox.Location = new Point(10, 14);
             password_textbox.Name = "password_textbox";
-            password_textbox.Size = new Size(445, 24);
+            password_textbox.Size = new Size(389, 20);
             password_textbox.TabIndex = 1;
             // 
             // panel2
             // 
             panel2.Controls.Add(label2);
             panel2.Controls.Add(redirectToLogin);
-            panel2.Location = new Point(7, 344);
-            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Location = new Point(6, 258);
             panel2.Name = "panel2";
-            panel2.Size = new Size(466, 32);
-            panel2.TabIndex = 4;
+            panel2.Size = new Size(408, 24);
+            panel2.TabIndex = 0;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft PhagsPa", 11.25F);
             label2.ForeColor = Color.FromArgb(81, 80, 80);
-            label2.Location = new Point(61, 5);
+            label2.Location = new Point(85, 2);
             label2.Name = "label2";
-            label2.Size = new Size(226, 24);
+            label2.Size = new Size(178, 20);
             label2.TabIndex = 0;
             label2.Text = "Already have an account?";
             // 
@@ -179,11 +171,10 @@
             redirectToLogin.FlatAppearance.BorderSize = 0;
             redirectToLogin.FlatStyle = FlatStyle.Flat;
             redirectToLogin.Font = new Font("Microsoft PhagsPa", 11.25F);
-            redirectToLogin.Location = new Point(298, -1);
-            redirectToLogin.Margin = new Padding(3, 4, 3, 4);
+            redirectToLogin.Location = new Point(265, -2);
             redirectToLogin.Name = "redirectToLogin";
-            redirectToLogin.Size = new Size(66, 39);
-            redirectToLogin.TabIndex = 1;
+            redirectToLogin.Size = new Size(58, 29);
+            redirectToLogin.TabIndex = 5;
             redirectToLogin.Text = "Login";
             redirectToLogin.UseVisualStyleBackColor = true;
             redirectToLogin.Click += redirectToLogin_Click;
@@ -195,11 +186,10 @@
             registerButton.FlatStyle = FlatStyle.Flat;
             registerButton.Font = new Font("Microsoft PhagsPa", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             registerButton.ForeColor = Color.WhiteSmoke;
-            registerButton.Location = new Point(3, 277);
-            registerButton.Margin = new Padding(3, 4, 3, 4);
+            registerButton.Location = new Point(3, 208);
             registerButton.Name = "registerButton";
-            registerButton.Size = new Size(470, 59);
-            registerButton.TabIndex = 3;
+            registerButton.Size = new Size(411, 44);
+            registerButton.TabIndex = 4;
             registerButton.Text = "Sign up";
             registerButton.UseVisualStyleBackColor = false;
             registerButton.Click += registerButton_Click;
@@ -208,11 +198,10 @@
             // 
             passwordTextPanel.BackColor = Color.FromArgb(245, 245, 245);
             passwordTextPanel.Controls.Add(email_textbox);
-            passwordTextPanel.Location = new Point(5, 68);
-            passwordTextPanel.Margin = new Padding(3, 4, 3, 4);
+            passwordTextPanel.Location = new Point(4, 51);
             passwordTextPanel.Name = "passwordTextPanel";
-            passwordTextPanel.Padding = new Padding(11, 13, 11, 13);
-            passwordTextPanel.Size = new Size(469, 59);
+            passwordTextPanel.Padding = new Padding(10);
+            passwordTextPanel.Size = new Size(410, 44);
             passwordTextPanel.TabIndex = 1;
             // 
             // email_textbox
@@ -220,21 +209,19 @@
             email_textbox.BackColor = Color.WhiteSmoke;
             email_textbox.BorderStyle = BorderStyle.None;
             email_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            email_textbox.Location = new Point(11, 17);
-            email_textbox.Margin = new Padding(3, 4, 3, 4);
+            email_textbox.Location = new Point(10, 13);
             email_textbox.Name = "email_textbox";
-            email_textbox.Size = new Size(445, 24);
+            email_textbox.Size = new Size(389, 20);
             email_textbox.TabIndex = 1;
             // 
             // emailTextPanel
             // 
             emailTextPanel.BackColor = Color.FromArgb(245, 245, 245);
             emailTextPanel.Controls.Add(name_textbox);
-            emailTextPanel.Location = new Point(6, 3);
-            emailTextPanel.Margin = new Padding(3, 4, 3, 4);
+            emailTextPanel.Location = new Point(5, 2);
             emailTextPanel.Name = "emailTextPanel";
-            emailTextPanel.Padding = new Padding(11, 13, 11, 13);
-            emailTextPanel.Size = new Size(467, 59);
+            emailTextPanel.Padding = new Padding(10);
+            emailTextPanel.Size = new Size(409, 44);
             emailTextPanel.TabIndex = 0;
             // 
             // name_textbox
@@ -242,10 +229,9 @@
             name_textbox.BackColor = Color.WhiteSmoke;
             name_textbox.BorderStyle = BorderStyle.None;
             name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
-            name_textbox.Location = new Point(11, 17);
-            name_textbox.Margin = new Padding(3, 4, 3, 4);
+            name_textbox.Location = new Point(10, 13);
             name_textbox.Name = "name_textbox";
-            name_textbox.Size = new Size(445, 24);
+            name_textbox.Size = new Size(389, 20);
             name_textbox.TabIndex = 0;
             // 
             // label1
@@ -253,9 +239,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft PhagsPa", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(81, 80, 80);
-            label1.Location = new Point(131, 9);
+            label1.Location = new Point(115, 7);
             label1.Name = "label1";
-            label1.Size = new Size(231, 39);
+            label1.Size = new Size(189, 32);
             label1.TabIndex = 0;
             label1.Text = "Create Account";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -264,23 +250,21 @@
             // 
             logo_image.BackgroundImage = (Image)resources.GetObject("logo_image.BackgroundImage");
             logo_image.BackgroundImageLayout = ImageLayout.Zoom;
-            logo_image.Location = new Point(320, 60);
-            logo_image.Margin = new Padding(3, 4, 3, 4);
+            logo_image.Location = new Point(280, 45);
             logo_image.Name = "logo_image";
-            logo_image.Size = new Size(519, 61);
+            logo_image.Size = new Size(454, 46);
             logo_image.TabIndex = 1;
             logo_image.TabStop = false;
             // 
             // RegistrationPanel
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
             Controls.Add(logo_image);
             Controls.Add(login_panel);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "RegistrationPanel";
-            Size = new Size(1143, 733);
+            Size = new Size(1000, 550);
             login_panel.ResumeLayout(false);
             Form.ResumeLayout(false);
             Form.PerformLayout();

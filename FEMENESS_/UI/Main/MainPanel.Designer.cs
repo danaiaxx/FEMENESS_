@@ -39,9 +39,11 @@
             home_button = new FontAwesome.Sharp.IconButton();
             logo_image = new PictureBox();
             center_panel = new Panel();
+            homePanel1 = new Features.HomePanel();
             navigation.SuspendLayout();
             menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo_image).BeginInit();
+            center_panel.SuspendLayout();
             SuspendLayout();
             // 
             // navigation
@@ -51,10 +53,9 @@
             navigation.Dock = DockStyle.Top;
             navigation.ForeColor = Color.FromArgb(135, 125, 113);
             navigation.Location = new Point(0, 0);
-            navigation.Margin = new Padding(3, 4, 3, 4);
             navigation.Name = "navigation";
-            navigation.Padding = new Padding(34, 20, 34, 20);
-            navigation.Size = new Size(1143, 91);
+            navigation.Padding = new Padding(30, 15, 30, 15);
+            navigation.Size = new Size(1000, 68);
             navigation.TabIndex = 0;
             // 
             // menu
@@ -66,10 +67,9 @@
             menu.Controls.Add(iconButton1);
             menu.Controls.Add(home_button);
             menu.Dock = DockStyle.Fill;
-            menu.Location = new Point(210, 20);
-            menu.Margin = new Padding(3, 4, 3, 4);
+            menu.Location = new Point(184, 15);
             menu.Name = "menu";
-            menu.Size = new Size(899, 51);
+            menu.Size = new Size(786, 38);
             menu.TabIndex = 3;
             // 
             // iconButton6
@@ -81,10 +81,10 @@
             iconButton6.IconColor = Color.FromArgb(135, 125, 113);
             iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton6.IconSize = 30;
-            iconButton6.Location = new Point(833, -19);
+            iconButton6.Location = new Point(729, -14);
             iconButton6.Margin = new Padding(0);
             iconButton6.Name = "iconButton6";
-            iconButton6.Size = new Size(65, 77);
+            iconButton6.Size = new Size(57, 58);
             iconButton6.TabIndex = 5;
             iconButton6.Text = "Cart";
             iconButton6.TextAlign = ContentAlignment.BottomCenter;
@@ -100,10 +100,9 @@
             iconButton5.IconColor = Color.FromArgb(135, 125, 113);
             iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton5.IconSize = 30;
-            iconButton5.Location = new Point(750, -20);
-            iconButton5.Margin = new Padding(3, 4, 3, 4);
+            iconButton5.Location = new Point(656, -15);
             iconButton5.Name = "iconButton5";
-            iconButton5.Size = new Size(65, 77);
+            iconButton5.Size = new Size(57, 58);
             iconButton5.TabIndex = 4;
             iconButton5.Text = "Profile";
             iconButton5.TextAlign = ContentAlignment.BottomCenter;
@@ -119,10 +118,9 @@
             iconButton3.IconColor = Color.FromArgb(135, 125, 113);
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton3.IconSize = 30;
-            iconButton3.Location = new Point(666, -20);
-            iconButton3.Margin = new Padding(3, 4, 3, 4);
+            iconButton3.Location = new Point(583, -15);
             iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(65, 77);
+            iconButton3.Size = new Size(57, 58);
             iconButton3.TabIndex = 3;
             iconButton3.Text = "About";
             iconButton3.TextAlign = ContentAlignment.BottomCenter;
@@ -138,10 +136,9 @@
             iconButton2.IconColor = Color.FromArgb(135, 125, 113);
             iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton2.IconSize = 30;
-            iconButton2.Location = new Point(569, -21);
-            iconButton2.Margin = new Padding(3, 4, 3, 4);
+            iconButton2.Location = new Point(498, -16);
             iconButton2.Name = "iconButton2";
-            iconButton2.Size = new Size(80, 77);
+            iconButton2.Size = new Size(70, 58);
             iconButton2.TabIndex = 2;
             iconButton2.Text = "Insights";
             iconButton2.TextAlign = ContentAlignment.BottomCenter;
@@ -157,10 +154,9 @@
             iconButton1.IconColor = Color.FromArgb(135, 125, 113);
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton1.IconSize = 30;
-            iconButton1.Location = new Point(495, -19);
-            iconButton1.Margin = new Padding(3, 4, 3, 4);
+            iconButton1.Location = new Point(433, -14);
             iconButton1.Name = "iconButton1";
-            iconButton1.Size = new Size(65, 77);
+            iconButton1.Size = new Size(57, 58);
             iconButton1.TabIndex = 1;
             iconButton1.Text = "Shop";
             iconButton1.TextAlign = ContentAlignment.BottomCenter;
@@ -177,10 +173,9 @@
             home_button.IconColor = Color.FromArgb(135, 125, 113);
             home_button.IconFont = FontAwesome.Sharp.IconFont.Auto;
             home_button.IconSize = 30;
-            home_button.Location = new Point(417, -23);
-            home_button.Margin = new Padding(3, 4, 3, 4);
+            home_button.Location = new Point(365, -17);
             home_button.Name = "home_button";
-            home_button.Size = new Size(59, 80);
+            home_button.Size = new Size(52, 60);
             home_button.TabIndex = 0;
             home_button.Text = "Home";
             home_button.TextAlign = ContentAlignment.BottomCenter;
@@ -192,11 +187,10 @@
             logo_image.BackgroundImage = (Image)resources.GetObject("logo_image.BackgroundImage");
             logo_image.BackgroundImageLayout = ImageLayout.Zoom;
             logo_image.Dock = DockStyle.Left;
-            logo_image.Location = new Point(34, 20);
-            logo_image.Margin = new Padding(3, 4, 3, 4);
+            logo_image.Location = new Point(30, 15);
             logo_image.Name = "logo_image";
-            logo_image.Padding = new Padding(11, 13, 11, 13);
-            logo_image.Size = new Size(176, 51);
+            logo_image.Padding = new Padding(10);
+            logo_image.Size = new Size(154, 38);
             logo_image.TabIndex = 2;
             logo_image.TabStop = false;
             // 
@@ -204,27 +198,37 @@
             // 
             center_panel.BackColor = Color.FromArgb(250, 243, 233);
             center_panel.BackgroundImageLayout = ImageLayout.Stretch;
+            center_panel.Controls.Add(homePanel1);
             center_panel.Dock = DockStyle.Fill;
-            center_panel.Location = new Point(0, 91);
-            center_panel.Margin = new Padding(3, 4, 3, 4);
+            center_panel.Location = new Point(0, 68);
             center_panel.Name = "center_panel";
-            center_panel.Size = new Size(1143, 642);
+            center_panel.Size = new Size(1000, 482);
             center_panel.TabIndex = 0;
+            // 
+            // homePanel1
+            // 
+            homePanel1.BackColor = Color.FromArgb(241, 223, 211);
+            homePanel1.Dock = DockStyle.Bottom;
+            homePanel1.Location = new Point(0, 0);
+            homePanel1.Name = "homePanel1";
+            homePanel1.Padding = new Padding(50);
+            homePanel1.Size = new Size(1000, 482);
+            homePanel1.TabIndex = 0;
             // 
             // MainPanel
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
             Controls.Add(center_panel);
             Controls.Add(navigation);
             ForeColor = Color.FromArgb(135, 125, 113);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "MainPanel";
-            Size = new Size(1143, 733);
+            Size = new Size(1000, 550);
             navigation.ResumeLayout(false);
             menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)logo_image).EndInit();
+            center_panel.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -240,5 +244,6 @@
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private Panel center_panel;
+        private Features.HomePanel homePanel1;
     }
 }
