@@ -123,8 +123,10 @@
             confirmPassword_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             confirmPassword_textbox.Location = new Point(10, 13);
             confirmPassword_textbox.Name = "confirmPassword_textbox";
+            confirmPassword_textbox.PlaceholderText = "Confirm Password";
             confirmPassword_textbox.Size = new Size(389, 20);
             confirmPassword_textbox.TabIndex = 1;
+            confirmPassword_textbox.UseSystemPasswordChar = true;
             // 
             // panel3
             // 
@@ -143,8 +145,10 @@
             password_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             password_textbox.Location = new Point(10, 14);
             password_textbox.Name = "password_textbox";
+            password_textbox.PlaceholderText = "Password";
             password_textbox.Size = new Size(389, 20);
             password_textbox.TabIndex = 1;
+            password_textbox.UseSystemPasswordChar = true;
             // 
             // panel2
             // 
@@ -211,6 +215,7 @@
             email_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             email_textbox.Location = new Point(10, 13);
             email_textbox.Name = "email_textbox";
+            email_textbox.PlaceholderText = "Email";
             email_textbox.Size = new Size(389, 20);
             email_textbox.TabIndex = 1;
             // 
@@ -231,6 +236,7 @@
             name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             name_textbox.Location = new Point(10, 13);
             name_textbox.Name = "name_textbox";
+            name_textbox.PlaceholderText = "username";
             name_textbox.Size = new Size(389, 20);
             name_textbox.TabIndex = 0;
             // 

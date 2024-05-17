@@ -32,13 +32,16 @@ namespace FEMENESS_.UI.Main.Features
             logout_button.MouseLeave += Button_MouseLeave;
 
         }
-
         private void logout_button_Click(object sender, EventArgs e)
-        {   
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            Control mainPanel = Parent?.Parent?.Parent.Controls["MainPanel"];
-            loginPanel.Visible = true;
-            Parent?.Parent?.Parent?.Controls.Remove(mainPanel);
+            if (result == DialogResult.Yes)
+            {
+                Control mainPanel = Parent?.Parent?.Parent.Controls["MainPanel"];
+                loginPanel.Visible = true;
+                Parent?.Parent?.Parent?.Controls.Remove(mainPanel);
+            }
         }
 
         private void Button_MouseEnter(object sender, EventArgs e)

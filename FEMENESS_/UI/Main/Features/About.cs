@@ -15,15 +15,17 @@ namespace FEMENESS_.UI.Main.Features
 {
     public partial class About : UserControl
     {
-        public About()
+        private BackendService backendService;
+        public About(BackendService backendService)
         {
+            this.backendService = backendService;
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            HomePanel homePanel = new UI.Main.Features.HomePanel();
+            HomePanel homePanel = new UI.Main.Features.HomePanel(backendService);
             homePanel.Dock = DockStyle.Bottom; 
             Parent.Controls.Add(homePanel); 
 

@@ -39,7 +39,7 @@
             home_button = new FontAwesome.Sharp.IconButton();
             logo_image = new PictureBox();
             center_panel = new Panel();
-            homePanel1 = new Features.HomePanel();
+            homePanel1 = new Features.HomePanel(backendService);
             navigation.SuspendLayout();
             menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo_image).BeginInit();

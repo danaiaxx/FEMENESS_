@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FEMENESS_.Backend;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,10 @@ namespace FEMENESS_.UI.Main.Features
 {
     public partial class HomePanel : UserControl
     {
-        public HomePanel()
+        private BackendService backendService;
+        public HomePanel(BackendService backendService)
         {
+            this.backendService = backendService;
             InitializeComponent();
 
             iconButton1.MouseEnter += Button_MouseEnter;
@@ -37,7 +40,7 @@ namespace FEMENESS_.UI.Main.Features
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            ShopPanel shop = new UI.Main.Features.ShopPanel();
+            ShopPanel shop = new UI.Main.Features.ShopPanel(backendService);
             shop.Dock = DockStyle.Bottom; 
             Parent.Controls.Add(shop);
 

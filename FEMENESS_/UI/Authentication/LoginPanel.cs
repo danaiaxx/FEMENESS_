@@ -1,6 +1,7 @@
 ﻿using FEMENESS_.Backend;
 using FEMENESS_.UI.Customization;
 using FEMENESS_.UI.Main;
+using FEMENESS_.UI.Main.Features;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,32 +24,25 @@ namespace FEMENESS_.UI.Authentication
         {
             this.backendService = backendService;
             InitializeComponent();
-
-            name_textbox.GotFocus += TextBox_GotFocus;
-            name_textbox.LostFocus += TextBox_LostFocus;
-            password_textbox.GotFocus += TextBox_GotFocus;
-            password_textbox.LostFocus += TextBox_LostFocus;
-
-            customStyles.SetPlaceholderText(name_textbox, "Username");
-            customStyles.SetPlaceholderText(password_textbox, "Password");
         }
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            string username = name_textbox.Text;
-            string password = password_textbox.Text;
-            User loggedUser = backendService.Login(username, password);
+            string username = name_textbox.Text.Trim();
+            string password = password_textbox.Text.Trim();
 
-
-            if (username == "Username" || password == "Password")
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                errorLabel.Text = "Please fill in the fields";
+                errorLabel.Text = "Please fill in all fields.";
                 return;
-
             }
+
+            User loggedUser = backendService.Login(username, password);
 
             if (loggedUser != null)
             {
+                MessageBox.Show("Successfully logged in!", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 errorLabel.Text = "";
                 name_textbox.Text = "";
                 password_textbox.Text = "";
@@ -61,8 +55,7 @@ namespace FEMENESS_.UI.Authentication
             }
             else
             {
-                errorLabel.Text = "Invalid username or password";
-                return;
+                errorLabel.Text = "Invalid username or password.";
             }
         }
 
@@ -78,48 +71,13 @@ namespace FEMENESS_.UI.Authentication
 
         }
 
-        public void TextBox_GotFocus(object? sender, EventArgs e)
-        {
-            if (sender is TextBox textBox)
-            {
-                if (textBox.ForeColor == SystemColors.GrayText)
-                {
-                    textBox.Text = "";
-                    textBox.ForeColor = SystemColors.WindowText;
-                }
-            }
-        }
-
-
-        public void TextBox_LostFocus(object? sender, EventArgs e)
-        {
-            if (sender is TextBox textBox)
-            {
-                if (string.IsNullOrWhiteSpace(textBox.Text))
-                {
-                    inititalPlaceholders();
-                }
-            }
-        }
-
-
-
-        private void inititalPlaceholders()
-        {
-            if (string.IsNullOrEmpty(name_textbox.Text))
-            {
-                customStyles.SetPlaceholderText(name_textbox, "Username");
-            }
-            if (string.IsNullOrEmpty(password_textbox.Text))
-            {
-                customStyles.SetPlaceholderText(password_textbox, "Password");
-            }
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            Parent.Controls.Add(new UI.Main.Features.ForgetPanel());
+            Form.Visible = false;
+            ForgetPanel forgetPanel = new UI.Main.Features.ForgetPanel(backendService, Form);
+            forgetPanel.Location = new Point(299, 53);
+            login_panel.Controls.Add(forgetPanel);
         }
     }
 

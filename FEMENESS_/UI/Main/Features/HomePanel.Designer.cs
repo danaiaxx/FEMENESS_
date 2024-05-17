@@ -128,6 +128,7 @@
             // iconButton3
             // 
             iconButton3.BackColor = Color.Transparent;
+            iconButton3.Enabled = false;
             iconButton3.FlatAppearance.BorderSize = 0;
             iconButton3.FlatStyle = FlatStyle.Flat;
             iconButton3.Font = new Font("Microsoft PhagsPa", 11.25F, FontStyle.Bold);

@@ -94,9 +94,9 @@ namespace FEMENESS_.UI.Authentication
             panel1.Controls.Add(button1);
             panel1.Controls.Add(passwordTextPanel);
             panel1.Controls.Add(emailTextPanel);
-            panel1.Location = new Point(1, 80);
+            panel1.Location = new Point(2, 77);
             panel1.Name = "panel1";
-            panel1.Size = new Size(417, 221);
+            panel1.Size = new Size(417, 217);
             panel1.TabIndex = 1;
             // 
             // panel2
@@ -178,6 +178,7 @@ namespace FEMENESS_.UI.Authentication
             password_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             password_textbox.Location = new Point(11, 13);
             password_textbox.Name = "password_textbox";
+            password_textbox.PlaceholderText = "Password";
             password_textbox.Size = new Size(389, 20);
             password_textbox.TabIndex = 1;
             // 
@@ -198,6 +199,7 @@ namespace FEMENESS_.UI.Authentication
             name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             name_textbox.Location = new Point(10, 13);
             name_textbox.Name = "name_textbox";
+            name_textbox.PlaceholderText = "Username";
             name_textbox.Size = new Size(389, 20);
             name_textbox.TabIndex = 2;
             // 

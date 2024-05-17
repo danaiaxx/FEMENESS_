@@ -14,7 +14,6 @@ namespace FEMENESS_.UI.Authentication
         {
             this.backendService = backendService;
             InitializeComponent();
-            inititalPlaceholders();
 
             // Call this method for each textbox
             SubscribeToFocusEvents(name_textbox);
@@ -28,7 +27,6 @@ namespace FEMENESS_.UI.Authentication
             if (control != null)
             {
                 control.GotFocus += TextBox_GotFocus;
-                control.LostFocus += TextBox_LostFocus;
             }
         }
 
@@ -49,27 +47,31 @@ namespace FEMENESS_.UI.Authentication
         {
             this.Visible = false;
             LoginPanel loginPanel = new UI.Authentication.LoginPanel(backendService);
-            loginPanel.Dock = DockStyle.Fill; // Fill the container with the login panel
-            Parent.Controls.Add(loginPanel); // Add the login panel to the same container
+            loginPanel.Dock = DockStyle.Fill; 
+            Parent.Controls.Add(loginPanel); 
 
             Parent.Controls.Remove(this);
         }
         private void registerButton_Click(object sender, EventArgs e)
         {
-            string username = name_textbox.Text;
-            string email = email_textbox.Text;
-            string password = password_textbox.Text;
-            string confirmPassword = confirmPassword_textbox.Text;
+            string username = name_textbox.Text.Trim();
+            string email = email_textbox.Text.Trim();
+            string password = password_textbox.Text.Trim();
+            string confirmPassword = confirmPassword_textbox.Text.Trim();
 
-            // Client-side validation
-            if (IsPlaceholderText(username) || IsPlaceholderText(email) ||
-                IsPlaceholderText(password) || IsPlaceholderText(confirmPassword))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) ||
+                string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
             {
                 errorLabel.Text = "Please fill in all fields.";
                 return;
             }
 
-            // Clear previous error messages
+            if (!IsValidEmail(email))
+            {
+                errorLabel.Text = "Please enter a valid email address.";
+                return;
+            }
+
             errorLabel.Text = "";
 
             if (password != confirmPassword)
@@ -82,30 +84,21 @@ namespace FEMENESS_.UI.Authentication
 
             if (newUser != null)
             {
-                errorLabel.Text = "Registration success.";
+                MessageBox.Show("User created successfully!", "Registration Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             else
             {
-                // Registration failed, handle the error
-                // For example:
                 errorLabel.Text = "Registration failed. Please try again.";
             }
         }
 
-        private bool IsPlaceholderText(string text)
+        private bool IsValidEmail(string email)
         {
-            return text.Trim() == "Username" || text.Trim() == "Email" ||
-                   text.Trim() == "Password" || text.Trim() == "Confirm Password";
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return System.Text.RegularExpressions.Regex.IsMatch(email, emailPattern);
         }
 
-        private void inititalPlaceholders()
-        {
-    
-                customStyles.SetPlaceholderText(name_textbox, "Username");
-                customStyles.SetPlaceholderText(email_textbox, "Email");
-                customStyles.SetPlaceholderText(password_textbox, "Password");
-                customStyles.SetPlaceholderText(confirmPassword_textbox, "Confirm Password");
-        }
 
         public void TextBox_GotFocus(object? sender, EventArgs e)
         {
@@ -120,17 +113,6 @@ namespace FEMENESS_.UI.Authentication
         }
 
 
-        public void TextBox_LostFocus(object? sender, EventArgs e)
-        {
-            if (sender is TextBox textBox)
-            {
-                if (string.IsNullOrWhiteSpace(textBox.Text))
-                {
-                    inititalPlaceholders();
-                }
-            }
-        }
-
-
+ 
     }
 }

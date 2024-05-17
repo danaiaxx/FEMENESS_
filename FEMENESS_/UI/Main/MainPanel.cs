@@ -28,12 +28,12 @@ namespace FEMENESS_.UI.Main
 
         private void home_button_Click(object sender, EventArgs e)
         {
-            SwitchToPanel(new UI.Main.Features.HomePanel());
+            SwitchToPanel(new UI.Main.Features.HomePanel(backendService));
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            SwitchToPanel(new UI.Main.Features.ShopPanel());
+            SwitchToPanel(new UI.Main.Features.ShopPanel(backendService));
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace FEMENESS_.UI.Main
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-            SwitchToPanel(new UI.Main.Features.About());
+            SwitchToPanel(new UI.Main.Features.About(backendService));
 
         }
 

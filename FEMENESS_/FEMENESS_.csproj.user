@@ -22,6 +22,9 @@
     <Compile Update="UI\Main\Features\Cart.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\Main\Features\ConfimationDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\Main\Features\ForgetPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -38,6 +41,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\Main\Features\ShopPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Main\Features\Shop\CategoryList.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\Main\MainPanel.cs">

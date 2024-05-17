@@ -63,3 +63,5 @@ C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-win
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.AccountSettings.resources
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.InsightContent.resources
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ForgetPanel.resources
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ConfimationDialog.resources
+C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.Shop.CategoryList.resources

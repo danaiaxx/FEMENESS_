@@ -39,7 +39,7 @@ namespace FEMENESS_.UI.Main.Features
         private void SetDefaultContent()
         {
             UserControl defaultContent = new InsightContent();
-            string defaultTitle = "Default Title";
+            string defaultTitle = "Why Sexual Health Matters?";
             NavigateToContent(defaultTitle, defaultContent, button1);
         }
 
