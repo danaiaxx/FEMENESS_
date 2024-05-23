@@ -49,7 +49,13 @@ namespace FEMENESS_.UI.Main.Features
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
+            {
+                Faq faq = new UI.Main.Features.Faq();
+                faq.Dock = DockStyle.Fill;
+                Parent.Controls.Add(faq);
 
+                Parent.Controls.Remove(this);
+            }
         }
 
         private void Button_MouseEnter(object sender, EventArgs e)

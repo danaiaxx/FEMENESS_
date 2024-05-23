@@ -24,6 +24,8 @@ namespace FEMENESS_.UI.Main
             this.backendService = backendService;
             this.loginPanel = loginPanel;
             InitializeComponent();
+
+            SwitchToPanel(new UI.Main.Features.HomePanel(backendService));
         }
 
         private void home_button_Click(object sender, EventArgs e)
@@ -48,7 +50,7 @@ namespace FEMENESS_.UI.Main
 
         }
 
-       
+
         private void iconButton6_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -84,9 +86,12 @@ namespace FEMENESS_.UI.Main
             // Add the new panel to the center_panel
             this.center_panel.Controls.Add(newPanel);
 
-         
+
         }
 
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

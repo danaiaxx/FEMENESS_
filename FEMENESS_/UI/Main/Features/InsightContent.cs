@@ -29,7 +29,24 @@ namespace FEMENESS_.UI.Main.Features
             set { textBox1.Text = value; }
         }
 
+        public string TextboxText1
+        {
+            get { return textBox2.Text; }
+            set { textBox2.Text = value; }
+        }
+
+        public string LinkText
+        {
+            get { return linkLabel1.Text; }
+            set { linkLabel1.Text = value; }
+        }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

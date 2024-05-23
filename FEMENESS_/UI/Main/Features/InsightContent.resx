@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Sexual health is a critical component of overall well-being, comprising the physical, emotional, mental, and social components of sexual activity. Understanding the importance of sexual health is essential for promoting healthy behaviors, preventing STIs, reducing unplanned births, and fostering happy relationships for individuals, communities, and society. Here, we explore important data and insights to emphasize the importance of sexual health.</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>According to the 2022 Philippine National Demographic and Health Survey (PNDHS), the country's family size has steadily decreased over time, with an average of 1.9 children per woman. However, 42% of surveyed married women and 59% of sexually active unmarried women continue to use no contraceptive method, highlighting a major unmet need for family planning services and education in this community.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="flowLayoutPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFTCAYAAAC52Y4SAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAABmlJREFUeF7t3e1RG0cAgOGUkA6SElyCO0g6SDpwOkg6sDugBEpwCZRACZoBIf8k
@@ -150,11 +156,5 @@
         T4BAPAEC8QQIxBMgEE+AQDwBAvEECMQTIBBPgEA8AQLxBAjEEyAQT4BAPAEC8QQIxBMgEE+AQDwBAvEE
         CMQTIBBPgEA8AQLxBAjEEyAQT4BAPAEC8QQIxBNgb3f3fwND7I/Dk4S2ngAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>Sexual health is a critical component of overall well-being, comprising the physical, emotional, mental, and social components of sexual activity. Understanding the importance of sexual health is essential for promoting healthy behaviors, preventing STIs, reducing unplanned births, and fostering happy relationships for individuals, communities, and society. Here, we explore important data and insights to emphasize the importance of sexual health.</value>
-  </data>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>According to the 2022 Philippine National Demographic and Health Survey (PNDHS), the country's family size has steadily decreased over time, with an average of 1.9 children per woman. However, 42% of surveyed married women and 59% of sexually active unmarried women continue to use no contraceptive method, highlighting a major unmet need for family planning services and education in this community.</value>
   </data>
 </root>
