@@ -35,7 +35,6 @@ namespace FEMENESS_.UI.Main.Features
             button1 = new Button();
             logout_button = new Button();
             panel1 = new Panel();
-            accountSettings1 = new AccountSettings(loggedUser, loginPanel, backendService);
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -66,7 +65,7 @@ namespace FEMENESS_.UI.Main.Features
             button1.Location = new Point(0, 209);
             button1.Margin = new Padding(6, 5, 6, 5);
             button1.Name = "button1";
-            button1.Size = new Size(313, 47);
+            button1.Size = new Size(314, 47);
             button1.TabIndex = 1;
             button1.Text = "Account Settings";
             button1.UseVisualStyleBackColor = false;
@@ -100,26 +99,16 @@ namespace FEMENESS_.UI.Main.Features
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(6, 7, 6, 7);
             panel1.Name = "panel1";
-            panel1.Size = new Size(313, 550);
+            panel1.Size = new Size(314, 550);
             panel1.TabIndex = 0;
-            // 
-            // accountSettings1
-            // 
-            accountSettings1.BackColor = Color.FromArgb(241, 223, 211);
-            accountSettings1.Dock = DockStyle.Right;
-            accountSettings1.Location = new Point(313, 0);
-            accountSettings1.Name = "accountSettings1";
-            accountSettings1.Size = new Size(687, 550);
-            accountSettings1.TabIndex = 1;
             // 
             // Profile
             // 
-            AutoScaleDimensions = new SizeF(13F, 29F);
+            AutoScaleDimensions = new SizeF(16F, 36F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 243, 233);
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            Controls.Add(accountSettings1);
             Controls.Add(panel1);
             DoubleBuffered = true;
             Font = new Font("Microsoft PhagsPa", 16.2F, FontStyle.Bold);

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FEMENESS_.UI.Main.Features.Shop
+namespace FEMENESS_.UI.Main.Features
 {
-    public partial class CategoryList : UserControl
+    public partial class UserControl1 : UserControl
     {
-        public CategoryList()
+        public UserControl1()
         {
             InitializeComponent();
         }

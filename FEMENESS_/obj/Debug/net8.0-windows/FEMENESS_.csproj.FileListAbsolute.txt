@@ -65,3 +65,11 @@ C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENES
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ForgetPanel.resources
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ConfimationDialog.resources
 C:\Users\datan\source\repos\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.Shop.CategoryList.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.AccountSettings.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ConfimationDialog.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.ForgetPanel.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.InsightContent.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Form1.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.Faq.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.LIbat.resources
+C:\Users\User\OneDrive\Documents\GitHub\FEMENESS_\FEMENESS_\obj\Debug\net8.0-windows\FEMENESS_.UI.Main.Features.UserControl1.resources

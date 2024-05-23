@@ -67,9 +67,10 @@
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
-            panel1.Location = new Point(53, 53);
+            panel1.Location = new Point(61, 71);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(894, 429);
+            panel1.Size = new Size(1022, 572);
             panel1.TabIndex = 0;
             // 
             // panel4
@@ -81,10 +82,11 @@
             panel4.Controls.Add(panel6);
             panel4.Controls.Add(panel5);
             panel4.Controls.Add(label1);
-            panel4.Location = new Point(3, 182);
+            panel4.Location = new Point(3, 243);
+            panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.Name = "panel4";
-            panel4.Padding = new Padding(5);
-            panel4.Size = new Size(888, 247);
+            panel4.Padding = new Padding(6, 7, 6, 7);
+            panel4.Size = new Size(1015, 329);
             panel4.TabIndex = 2;
             // 
             // panel7
@@ -93,19 +95,21 @@
             panel7.Controls.Add(panel10);
             panel7.Controls.Add(iconButton3);
             panel7.Controls.Add(label4);
-            panel7.Location = new Point(628, 90);
+            panel7.Location = new Point(718, 120);
+            panel7.Margin = new Padding(3, 4, 3, 4);
             panel7.Name = "panel7";
-            panel7.Size = new Size(191, 118);
+            panel7.Size = new Size(218, 157);
             panel7.TabIndex = 3;
             panel7.Paint += panel7_Paint;
             // 
             // panel10
             // 
             panel10.Controls.Add(textBox3);
-            panel10.Location = new Point(-2, 26);
+            panel10.Location = new Point(-2, 35);
+            panel10.Margin = new Padding(3, 4, 3, 4);
             panel10.Name = "panel10";
-            panel10.Padding = new Padding(5);
-            panel10.Size = new Size(191, 63);
+            panel10.Padding = new Padding(6, 7, 6, 7);
+            panel10.Size = new Size(218, 84);
             panel10.TabIndex = 4;
             // 
             // textBox3
@@ -116,14 +120,15 @@
             textBox3.Enabled = false;
             textBox3.Font = new Font("Microsoft PhagsPa", 9.75F);
             textBox3.ForeColor = Color.FromArgb(81, 80, 80);
-            textBox3.Location = new Point(5, 5);
+            textBox3.Location = new Point(6, 7);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.ReadOnly = true;
             textBox3.RightToLeft = RightToLeft.No;
-            textBox3.Size = new Size(181, 53);
+            textBox3.Size = new Size(206, 70);
             textBox3.TabIndex = 1;
-            textBox3.Text = "Connect with our live chat support for your issues and concerns.";
+            textBox3.Text = "Visit our FAQs section for answers to common questions.";
             // 
             // iconButton3
             // 
@@ -137,11 +142,12 @@
             iconButton3.IconColor = Color.Black;
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton3.IconSize = 20;
-            iconButton3.Location = new Point(0, 88);
+            iconButton3.Location = new Point(0, 117);
+            iconButton3.Margin = new Padding(3, 4, 3, 4);
             iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(117, 30);
+            iconButton3.Size = new Size(134, 40);
             iconButton3.TabIndex = 3;
-            iconButton3.Text = "Chat";
+            iconButton3.Text = "Visit";
             iconButton3.TextAlign = ContentAlignment.MiddleLeft;
             iconButton3.UseVisualStyleBackColor = false;
             iconButton3.Click += iconButton3_Click;
@@ -154,9 +160,9 @@
             label4.ForeColor = Color.FromArgb(81, 80, 80);
             label4.Location = new Point(0, 0);
             label4.Name = "label4";
-            label4.Size = new Size(52, 25);
+            label4.Size = new Size(72, 32);
             label4.TabIndex = 1;
-            label4.Text = "Chat";
+            label4.Text = "FAQs";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel6
@@ -165,9 +171,10 @@
             panel6.Controls.Add(iconButton2);
             panel6.Controls.Add(panel9);
             panel6.Controls.Add(label3);
-            panel6.Location = new Point(354, 90);
+            panel6.Location = new Point(405, 120);
+            panel6.Margin = new Padding(3, 4, 3, 4);
             panel6.Name = "panel6";
-            panel6.Size = new Size(191, 119);
+            panel6.Size = new Size(218, 159);
             panel6.TabIndex = 2;
             // 
             // iconButton2
@@ -181,9 +188,10 @@
             iconButton2.IconColor = Color.Black;
             iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton2.IconSize = 20;
-            iconButton2.Location = new Point(0, 89);
+            iconButton2.Location = new Point(0, 119);
+            iconButton2.Margin = new Padding(3, 4, 3, 4);
             iconButton2.Name = "iconButton2";
-            iconButton2.Size = new Size(121, 30);
+            iconButton2.Size = new Size(138, 40);
             iconButton2.TabIndex = 5;
             iconButton2.Text = "Shop";
             iconButton2.TextAlign = ContentAlignment.MiddleLeft;
@@ -193,10 +201,11 @@
             // panel9
             // 
             panel9.Controls.Add(textBox2);
-            panel9.Location = new Point(-3, 26);
+            panel9.Location = new Point(-3, 35);
+            panel9.Margin = new Padding(3, 4, 3, 4);
             panel9.Name = "panel9";
-            panel9.Padding = new Padding(5);
-            panel9.Size = new Size(191, 64);
+            panel9.Padding = new Padding(6, 7, 6, 7);
+            panel9.Size = new Size(218, 85);
             panel9.TabIndex = 4;
             // 
             // textBox2
@@ -207,12 +216,13 @@
             textBox2.Enabled = false;
             textBox2.Font = new Font("Microsoft PhagsPa", 9.75F);
             textBox2.ForeColor = Color.FromArgb(81, 80, 80);
-            textBox2.Location = new Point(5, 5);
+            textBox2.Location = new Point(6, 7);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.RightToLeft = RightToLeft.No;
-            textBox2.Size = new Size(181, 54);
+            textBox2.Size = new Size(206, 71);
             textBox2.TabIndex = 1;
             textBox2.Text = "Browse our range of sexual and reproductive health products.";
             // 
@@ -224,7 +234,7 @@
             label3.ForeColor = Color.FromArgb(81, 80, 80);
             label3.Location = new Point(0, 0);
             label3.Name = "label3";
-            label3.Size = new Size(58, 25);
+            label3.Size = new Size(71, 32);
             label3.TabIndex = 1;
             label3.Text = "Shop";
             // 
@@ -234,18 +244,20 @@
             panel5.Controls.Add(panel8);
             panel5.Controls.Add(iconButton1);
             panel5.Controls.Add(label2);
-            panel5.Location = new Point(69, 90);
+            panel5.Location = new Point(79, 120);
+            panel5.Margin = new Padding(3, 4, 3, 4);
             panel5.Name = "panel5";
-            panel5.Size = new Size(191, 119);
+            panel5.Size = new Size(218, 159);
             panel5.TabIndex = 1;
             // 
             // panel8
             // 
             panel8.Controls.Add(textBox1);
-            panel8.Location = new Point(-4, 24);
+            panel8.Location = new Point(-5, 32);
+            panel8.Margin = new Padding(3, 4, 3, 4);
             panel8.Name = "panel8";
-            panel8.Padding = new Padding(5);
-            panel8.Size = new Size(191, 56);
+            panel8.Padding = new Padding(6, 7, 6, 7);
+            panel8.Size = new Size(218, 75);
             panel8.TabIndex = 3;
             // 
             // textBox1
@@ -256,12 +268,13 @@
             textBox1.Enabled = false;
             textBox1.Font = new Font("Microsoft PhagsPa", 9.75F);
             textBox1.ForeColor = Color.FromArgb(81, 80, 80);
-            textBox1.Location = new Point(5, 5);
+            textBox1.Location = new Point(6, 7);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
             textBox1.RightToLeft = RightToLeft.No;
-            textBox1.Size = new Size(181, 46);
+            textBox1.Size = new Size(206, 61);
             textBox1.TabIndex = 0;
             textBox1.Text = "Be informed of various sexual or reproductive health issues.";
             // 
@@ -276,9 +289,10 @@
             iconButton1.IconColor = Color.Black;
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton1.IconSize = 20;
-            iconButton1.Location = new Point(0, 89);
+            iconButton1.Location = new Point(0, 119);
+            iconButton1.Margin = new Padding(3, 4, 3, 4);
             iconButton1.Name = "iconButton1";
-            iconButton1.Size = new Size(163, 30);
+            iconButton1.Size = new Size(186, 40);
             iconButton1.TabIndex = 2;
             iconButton1.Text = "Insights";
             iconButton1.TextAlign = ContentAlignment.MiddleLeft;
@@ -293,7 +307,7 @@
             label2.ForeColor = Color.FromArgb(81, 80, 80);
             label2.Location = new Point(0, 0);
             label2.Name = "label2";
-            label2.Size = new Size(74, 25);
+            label2.Size = new Size(93, 32);
             label2.TabIndex = 0;
             label2.Text = "Inform";
             // 
@@ -303,9 +317,9 @@
             label1.BackColor = Color.WhiteSmoke;
             label1.Font = new Font("Microsoft PhagsPa", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(81, 80, 80);
-            label1.Location = new Point(34, 31);
+            label1.Location = new Point(39, 41);
             label1.Name = "label1";
-            label1.Size = new Size(387, 36);
+            label1.Size = new Size(482, 44);
             label1.TabIndex = 0;
             label1.Text = "How can Femeness help you?";
             // 
@@ -313,9 +327,10 @@
             // 
             panel3.BackgroundImage = (Image)resources.GetObject("panel3.BackgroundImage");
             panel3.BackgroundImageLayout = ImageLayout.Stretch;
-            panel3.Location = new Point(692, 3);
+            panel3.Location = new Point(791, 4);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(199, 153);
+            panel3.Size = new Size(227, 204);
             panel3.TabIndex = 1;
             // 
             // panel2
@@ -324,10 +339,11 @@
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.Controls.Add(textBox5);
             panel2.Controls.Add(textBox4);
-            panel2.Location = new Point(3, 3);
+            panel2.Location = new Point(3, 4);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Padding = new Padding(20);
-            panel2.Size = new Size(668, 153);
+            panel2.Padding = new Padding(23, 27, 23, 27);
+            panel2.Size = new Size(763, 204);
             panel2.TabIndex = 0;
             // 
             // textBox5
@@ -336,11 +352,12 @@
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Enabled = false;
             textBox5.Font = new Font("Microsoft PhagsPa", 12.75F);
-            textBox5.Location = new Point(23, 77);
+            textBox5.Location = new Point(26, 103);
+            textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
             textBox5.ReadOnly = true;
-            textBox5.Size = new Size(622, 53);
+            textBox5.Size = new Size(711, 71);
             textBox5.TabIndex = 1;
             textBox5.Text = "We’re on a mission to raise the bar on reproductive and sexual health, making it a priority for all.";
             // 
@@ -350,23 +367,25 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Enabled = false;
             textBox4.Font = new Font("Microsoft PhagsPa", 12.75F);
-            textBox4.Location = new Point(23, 23);
+            textBox4.Location = new Point(26, 31);
+            textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.ReadOnly = true;
-            textBox4.Size = new Size(622, 48);
+            textBox4.Size = new Size(711, 64);
             textBox4.TabIndex = 0;
             textBox4.Text = "Femeness empowers men and women to take charge of their sexual and reproductive health and to become advocates for their own bodies.";
             // 
             // HomePanel
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 223, 211);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "HomePanel";
-            Padding = new Padding(50);
-            Size = new Size(1000, 482);
+            Padding = new Padding(57, 67, 57, 67);
+            Size = new Size(1143, 643);
             panel1.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();

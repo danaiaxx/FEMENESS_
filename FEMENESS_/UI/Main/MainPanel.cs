@@ -48,15 +48,17 @@ namespace FEMENESS_.UI.Main
 
         }
 
-        private void iconButton5_Click(object sender, EventArgs e)
-        {
-            SwitchToPanel(new UI.Main.Features.Profile(loginPanel, loggedUser, backendService));
-
-        }
-
+       
         private void iconButton6_Click(object sender, EventArgs e)
         {
-            SwitchToPanel(new UI.Main.Features.Cart());
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Control mainPanel = Parent?.Parent?.Parent.Controls["MainPanel"];
+                loginPanel.Visible = true;
+                Parent?.Parent?.Parent?.Controls.Remove(mainPanel);
+            }
 
         }
 
@@ -65,7 +67,7 @@ namespace FEMENESS_.UI.Main
             // Determine the dock style based on the type of panel
             if (newPanel is HomePanel || newPanel is About)
             {
-                newPanel.Dock = DockStyle.Bottom;
+                newPanel.Dock = DockStyle.Fill;
             }
             else
             {
@@ -82,15 +84,7 @@ namespace FEMENESS_.UI.Main
             // Add the new panel to the center_panel
             this.center_panel.Controls.Add(newPanel);
 
-            // Enable or disable IconButton5 based on the type of panel
-            if (newPanel is Profile)
-            {
-                iconButton5.Enabled = false;
-            }
-            else
-            {
-                iconButton5.Enabled = true;
-            }
+         
         }
 
 

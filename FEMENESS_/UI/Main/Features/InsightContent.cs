@@ -28,5 +28,10 @@ namespace FEMENESS_.UI.Main.Features
             get { return textBox1.Text; }
             set { textBox1.Text = value; }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
