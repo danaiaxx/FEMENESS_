@@ -236,7 +236,7 @@
             name_textbox.Font = new Font("Microsoft PhagsPa", 11.25F);
             name_textbox.Location = new Point(10, 13);
             name_textbox.Name = "name_textbox";
-            name_textbox.PlaceholderText = "username";
+            name_textbox.PlaceholderText = "Username";
             name_textbox.Size = new Size(389, 20);
             name_textbox.TabIndex = 0;
             // 

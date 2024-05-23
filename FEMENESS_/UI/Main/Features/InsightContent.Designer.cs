@@ -51,7 +51,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(23, 305);
+            linkLabel1.Location = new Point(23, 324);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(60, 15);
             linkLabel1.TabIndex = 2;
@@ -68,7 +68,7 @@
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(540, 141);
+            textBox2.Size = new Size(540, 160);
             textBox2.TabIndex = 1;
             textBox2.Text = resources.GetString("textBox2.Text");
             // 
@@ -78,7 +78,7 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Enabled = false;
             textBox1.Font = new Font("Microsoft PhagsPa", 10.5F);
-            textBox1.Location = new Point(23, 170);
+            textBox1.Location = new Point(23, 189);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;

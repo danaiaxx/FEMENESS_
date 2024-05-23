@@ -39,19 +39,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\datan\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\datan\\AI_Website\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
       "projectName": "FEMENESS_",
-      "projectPath": "C:\\Users\\datan\\AI_Website\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
-      "packagesPath": "C:\\Users\\datan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\datan\\AI_Website\\FEMENESS_\\FEMENESS_\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\FEMENESS_.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\FEMENESS_\\FEMENESS_\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\datan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
